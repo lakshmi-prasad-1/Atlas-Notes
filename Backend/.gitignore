@@ -1,0 +1,16 @@
+# Backend gitignore
+node_modules/
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+dist
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
