@@ -86,41 +86,6 @@ UPSTASH_REDIS_REST_TOKEN=your-upstash-token
 
 > Do not commit `.env` files to GitHub. This repository includes `.gitignore` entries to protect environment files.
 
-## 📦 Deployment
-
-### Backend deployment
-
-Recommended platforms:
-- Render
-- Railway
-- Heroku
-- DigitalOcean App Platform
-
-Deployment steps:
-1. Push `Backend/` to your Git repo.
-2. Configure environment variables in the hosting dashboard.
-3. Set the start command to:
-   ```bash
-   npm start
-   ```
-
-### Frontend deployment
-
-Recommended platforms:
-- Vercel
-- Netlify
-- Firebase Hosting
-
-Deployment steps:
-1. Push `Frontend/` to your Git repo.
-2. Configure the build command:
-   ```bash
-   npm run build
-   ```
-3. Set the publish directory to:
-   ```bash
-   dist
-   ```
 
 ## 🛡️ GitHub Readiness
 
@@ -132,8 +97,6 @@ If you have already committed `.env` files, remove them from the repository hist
 git rm --cached Backend/.env
 git rm --cached Frontend/.env
 ```
-
-Then commit the `.gitignore` changes.
 
 ## 💡 Notes
 
